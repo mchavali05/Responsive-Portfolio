@@ -220,14 +220,35 @@ input[type=submit] {
   media queries
 */
 @media screen and (max-width: 980px) {
- 
+  .container {
+    max-width: 900px;
   }
+
+  .main-section {
+    max-width: 500px;
+  }
+   
+  footer {
+    padding: 35px 0px;
+    bottom: 0;    
+  }
+
+ }
 
 
 @media screen and (max-width: 768px) {
- /* .container {
+  .container {
       max-width: 100%;
-  }*/
+  }
+
+  .auth-image {
+    width: 400px;
+  }
+
+  footer {
+    padding: 35px 0px;
+    bottom: 0;    
+  }
 }
 
 @media screen and (max-width: 640px) {
