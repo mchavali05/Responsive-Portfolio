@@ -219,14 +219,60 @@ input[type=submit] {
 /*
   media queries
 */
-@media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
-  /*body {
-    background-color: #333;
-  }*/
-
-  /* The wrapper's width will be 600px */
-  section {
-    width: 768px;
+@media screen and (max-width: 980px) {
+ 
   }
+
+
+@media screen and (max-width: 768px) {
+ /* .container {
+      max-width: 100%;
+  }*/
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    position: static;
+  }
+
+  #logo {
+    float: left;
+    width: 100%;
+  }
+
+  nav {
+  clear: both;
+  float: none;
+  text-align: center;
+  padding: 20px 0px;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+ 
+  .container {
+    max-width: 100%;
+  }
+
+  .main-section {
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .work {
+    width: 100%;
+  }  
+
+  footer {
+    padding: 35px 0px;
+    bottom: 0;    
+  }
+
+}
+
 }
