@@ -238,11 +238,11 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   .container {
-      max-width: 100%;
+      max-width: 700px;
   }
 
   .auth-image {
-    width: 400px;
+    width: 350px;
   }
 
   footer {
